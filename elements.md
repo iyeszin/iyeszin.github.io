@@ -1,10 +1,85 @@
 ---
 layout: page
-title: Elements
+title: Resume
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
 
+\section*{\textsc{Professional Experience}}
+
+\marginnote{\scriptsize 2020/21} \textbf{Business Intelligence Consultant} SturnGroup, Kuala Lumpur, Malaysia.\\ 
+Work with multiple data sources and databases, and analyze big data to discover trends and patterns. Assist team to design and develop analytical and reporting solutions. Solid SQL skills, VBA scripting and data visualization skills. \\
+
+\marginnote{\scriptsize 2018/20} \textbf{Software Developer} in Merimen Online. Selangor, Malaysia.\\ 
+Full-stack developer with experience in JavaScript, jQuery, HTML, CSS, and SQL and server-side language (ColdFusion). Optimize and enhance existing functionality. Familiarity with Agile development methodologies. Excellent communication skills.\\
+
+\marginnote{\scriptsize 2017} \textbf{Software Intern} in Meta Technology (Asia Office). Selangor, Malaysia.\\ 
+Verify and troubleshoot system. Produce clean, efficient code based on specifications. Work on Odoo (Open-Source ERP \& CRM) development tasks such as implementing form, revise Kanban and form, create qweb report etc. \\
+
+
+%\hrule
+\section*{\textsc{Education}}
+\noindent
+
+\marginnote{\scriptsize 2021-Current}\textsc{MSC.} Erasmus Mundus Joint Master Degree (Photonics for Security Reliability and Safety) \\
+Specialization in Biometrics and Intelligent Vision \\
+Université Jean Monnet, University of Eastern Finland, University Paris-Est Créteil\\
+\\
+\marginnote{\scriptsize 2014-2018}\textsc{BSCS.} Software Engineering, Universiti Malaysia Sabah, Kota Kinabalu. (CGPA: 3.58/4.0) \\
+Undergraduate Thesis: Identifying Danger in Underwater Environment using 
+Deep Learning Based on Object Detection Models. \\
+Advisor: Dr. Rayner Alfred -- \href{mailto:ralfred@ums.edu.my}{ralfred@ums.edu.my}
+
+
+\section*{\textsc{Professional training}}
+\noindent
+
+\marginnote{\scriptsize 2020} \textbf{Google Cloud}'s course about Google Cloud Platform technologies, Big Data and Machine learning. 
+Link to \href{https://www.cloudskillsboost.google/public_profiles/733f29a8-c0a8-4b46-9296-21ac09d5b0e0}{badges}.
+
+
+\section*{\textsc{Personal Project}}
+\noindent
+
+\textbf Count bottle in a crate — \textbf{Python}\\
+To count bottles present in the images by taking input of image and output is the number of bottles in the crate. One of the challenges faces is identify and count the bottle in flipped and laying position. \\
+
+\textbf Handwritten assamese numerals recognition — \textbf{Matlab}\\
+The solution to this problem is handwritten digit recognition, which uses an image of a digit and recognizes the digit present in the image. In this project, we are going to recognize the handwritten assamese numerals by extracting useful features by analyzing the structure.\\
+
+\textbf Information Retrieval: tf-idf — \textbf{Python}\\
+This script implements the tf-idf in vector model to generate the tf-idf 
+ratings for a collection of documents. This script can read a file (pdf files) 
+from your computer. \\
+Link to \href{https://github.com/iyeszin/tf-idf}{https://github.com/iyeszin/tf-idf (private repo)}.\\
+
+\textbf Metaheuristic algorithm: cuckoo search — \textbf{Java}\\
+This script implements the Cuckoo Search algorithm, which is used for 
+solving optimization problems. The metaheuristic algorithm is inspired by 
+the obligate brood parasitism of some cuckoo species by laying their eggs in 
+the nests of other host birds (of other species). \\
+Link to \href{https://github.com/iyeszin/cuckoo-search-levy-flight}{https://github.com/iyeszin/cuckoo-search-levy-flight (private repo)}.
+
+
+%\hrule
+\section*{\textsc{Computer Skills}}
+Programming languages: Matlab, Python , C/C++, Vb script, ColdFusion. \\
+Python libraries: Numpy, Scipy, Pytorch, Keras, Scikit-Learn, Matplotlib, Pandas.\\
+Tools: Git, LaTeX, Microsoft Office, Anaconda, IBM InfoSphere DataStage, IBM InfoSphere Data Replication, Tableau.\\
+Extras: Experience implementing machine learning methods, knowledge in signal processing, knowledge in datawarehouse and ETL concept, basic skills in image editing.
+
+%\hrule
+\section*{\textsc{Awards \& Honours}}
+• Graduated cum laude \\
+• Microsoft Azure Most Potential Project Award – InvestHack 2020 - Organized by Bursa Malaysia
+
+%\hrule
+\section*{Languages}
+
+Mandarin (Native) • English (Fluent) • Malay (Fluent) • French (Basic)
+
+
+<!-- 
 <!-- Main -->
 <div id="main" class="alt">
 
@@ -409,3 +484,4 @@ print 'It took ' + i + ' iterations to sort the deck.';
 </section>
 
 </div>
+ -->
