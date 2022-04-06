@@ -1,13 +1,24 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: About
+description: A little about myself
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+Writing in Markdown is easy-peasy. If you're unsure, use slash ( / ) to see commands in dropdown. Give it a try!
+# Full name
+## Work experience
+Company name XYZ
+-> Aug '20 to Present
+Simple formatting like **bold**, _italics_, `highlight skills`
+- Bullet point 1
+- Bullet point 2
+Links: [Display Text](URL)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+Coming from a computer science background, I joined the Erasmus Mundus Master program in 2021 aiming at specializing in Biometrics and Intelligent Vision. Currently, I’m looking for 13 weeks-long summer internship to gain real-life exposure and grow my knowledge in computer vision. I like to solve problems and taking on new challenges. Pushing myself to take risks and stepping out of my comfort zone is how I continue to grow.
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+Alongside my interests in computer vision some of my other interests and hobbies are:
+- Yoga
+- Cycling
+- Becoming better in cooking home country dishes
