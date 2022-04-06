@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Hi, my name is Iye Szin'
 description: null
 image: null
 author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+Coming from a computer science background, I joined the Erasmus Mundus Master program in 2021 aiming at specializing in Biometrics and Intelligent Vision. Currently, I’m looking for 13 weeks-long summer internship to gain real-life exposure and grow my knowledge in signal processing. I like to solve problems and taking on new challenges. Pushing myself to take risks and stepping out of my comfort zone is how I continue to grow.
