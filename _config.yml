@@ -11,7 +11,7 @@ city: Joensuu
 state: 
 zip_code: 
 country: Finland
-phone:
+phone: +358 41 726 3910
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -23,7 +23,7 @@ tiles-count: 6
 # You need to restart jekyll for changes to have an effect
 socials:
   GitHub: https://github.com/iyeszin
-  GitLab:
+  GitLab: https://iyeszin.github.io/
   Google-Plus:
   Instagram:
   LinkedIn: https://www.linkedin.com/iyeszin
