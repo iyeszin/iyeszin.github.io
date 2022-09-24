@@ -17,20 +17,19 @@ nav-menu: true
 		</header>
 		<div class="box alt">
 			<div class="row 50% uniform">
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-				<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/lens01.JPG %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/lens02.JPG %}" alt="" /></span></div>
+				<div class="4u$"><span class="image fit"><img src="{% link assets/images/lens03.JPG %}" alt="" /></span></div>
 				<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
-				<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/lens04.JPG %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/lens05.JPG %}" alt="" /></span></div>
+				<div class="4u$"><span class="image fit"><img src="{% link assets/images/lens06.JPG %}" alt="" /></span></div>
 				<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
-				<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/lens07.JPG %}" alt="" /></span></div>
+				<div class="4u"><span class="image fit"><img src="{% link assets/images/lens08.JPG %}" alt="" /></span></div>
+				<div class="4u$"><span class="image fit"><img src="{% link assets/images/lens09.JPG %}" alt="" /></span></div>
 			</div>
 		</div>
-
 	</div>
 </section>
 
