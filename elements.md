@@ -19,19 +19,19 @@ nav-menu: true
     <!-- Content -->
     <h2 id="content">Work experience</h2>
     <div class="row">
-        <div class="6u$ 12u$(small)">
+        <div class="6u 12u$(small)">
             <h3>Research intern</h3>
             <p><i> Color Imaging Lab, University of Granada, Spain </i></p>
             <p>June '22 to Aug '22</p>
             <p>This project focused on working in the trial phase of the method for color vision deficiency (CVD) and the building of the recoloration options. The mobile app is built on framework of React Native and Flask. For this project, I was assigned to build mobile app that helps people who are color blind see the colors around them. It also lets people with normal vision see what it's like to be color blind. </p>
         </div>
-        <div class="6u$ 12u$(small)">
+        <div class="6u 12u$(small)">
             <h3>Business Intelligence Consultant</h3>
             <p><i>SturnGroup, Kuala Lumpur, Malaysia.</i></p>
             <p>Feb '20 to Aug '21</p>
             <p>Work with multiple data sources and databases, and analyze big data to discover trends and patterns. Assist team to design and develop analytical and reporting solutions. Solid SQL skills, VBA scripting and data visualization skills.</p>
         </div>
-        <div class="6u$ 12u$(small)">
+        <div class="6u 12u$(small)">
             <h3>Software Developer</h3>
             <p><i>Merimen Online. Selangor, Malaysia.</i></p>
             <p>Dec '18 to Jan '20</p>
@@ -47,7 +47,7 @@ nav-menu: true
     <!-- Break -->
     <h2 id="content">Education</h2>
     <div class="row">
-        <div class="6u$ 12u$(small)">
+        <div class="6u 12u$(small)">
             <h3>MSC. Erasmus Mundus Joint Master Degree (Photonics for Security Reliability and Safety)</h3>
             <p><i>Specialization in Biometrics and Intelligent Vision</i></p>
             <p>2021 to current</p>
