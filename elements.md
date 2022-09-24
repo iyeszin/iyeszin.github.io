@@ -20,6 +20,12 @@ nav-menu: true
     <h2 id="content">Work experience</h2>
     <div class="row">
         <div class="6u 12u$(small)">
+            <h3>Research intern</h3>
+            <p><i> Color Imaging Lab, University of Granada, Spain </i></p>
+            <p>June '22 to Aug '22</p>
+            <p>This project focused on working in the trial phase of the method for color vision deficiency (CVD) and the building of the recoloration options. The mobile app is built on framework of React Native and Flask. For this project, I was assigned to build mobile app that helps people who are color blind see the colors around them. It also lets people with normal vision see what it's like to be color blind. </p>
+        </div>
+        <div class="6u 12u$(small)">
             <h3>Business Intelligence Consultant</h3>
             <p><i>SturnGroup, Kuala Lumpur, Malaysia.</i></p>
             <p>Feb '20 to Aug '21</p>
