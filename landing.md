@@ -2,7 +2,7 @@
 title: Blog
 layout: landing
 description: 'My only goal in life right now is to be genuinely happy'
-image: assets/images/pic07.jpg
+image: assets/images/pic07.JPG
 nav-menu: true
 ---
 
