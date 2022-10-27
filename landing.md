@@ -34,4 +34,19 @@ nav-menu: true
 </section>
 
 
+<!-- Two -->
+<section id="two">
+	<div class="inner">
+		<header class="major">
+			<h2>Projects</h2>
+		</header>
+		<p>Some projects I did during my coursework and free time.</p>
+		<ul class="actions">
+			<li><a href="projects.html" class="button">Learn more</a></li>
+		</ul>
+	</div>
+</section>
+
+
+
 </div>

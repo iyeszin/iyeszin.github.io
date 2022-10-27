@@ -41,7 +41,7 @@ nav-menu: true
             <h3>Software Intern</h3>
             <p><i>Meta Technology (Asia Office). Selangor, Malaysia.</i></p>
             <p>Feb '17 to Aug '17</p>
-            <p>Verify and troubleshoot system. Produce clean, efficient code based on specifications. Work on Odoo (Open-Source ERP & CRM) development tasks such as implementing form, revise Kanban and form, create qweb report etc.</p>
+            <p>Verify and troubleshoot system. Produce clean, efficient code based on specifications. Work on Odoo (Open-Source ERP &amp; CRM) development tasks such as implementing form, revise Kanban and form, create qweb report etc.</p>
         </div>
     </div>
     <!-- Break -->
@@ -50,6 +50,7 @@ nav-menu: true
         <div class="6u 12u$(small)">
             <h3>MSC. Erasmus Mundus Joint Master Degree (Photonics for Security Reliability and Safety)</h3>
             <p><i>Specialization in Biometrics and Intelligent Vision</i></p>
+			<p>Website: <a href="https://www.master-photonics4security.eu/">https://www.master-photonics4security.eu/</a></p>
             <p>2021 to current</p>
             <p>University Jean Monnet, University of Eastern Finland, University Paris-Est Creteil</p>
         </div>
@@ -58,14 +59,21 @@ nav-menu: true
             <p>2014 to 2018     <i>CGPA: 3.58/4.00</i></p>
             <p>Universiti Malaysia Sabah</p>
             <p>Undergraduate Thesis: Identifying Danger in Underwater Environment using Deep Learning Based on Object Detection Models.</p>
-            <p>Advisor: Dr. Rayner Alfred – <a href="ralfred@ums.edu.my">ralfred@ums.edu.my</a></p>
+            <p>Advisor: Dr. Rayner Alfred - <a href="ralfred@ums.edu.my">ralfred@ums.edu.my</a></p>
         </div>
     </div>
     <!-- Break -->
     <h2 id="content">Professional training</h2>
     <div class="row">
         <div class="6u 12u$(small)">
-            <p><b>Google Cloud</b>’s course about Google Cloud Platform technologies, Big Data and Machine learning. Link to <a href="https://www.cloudskillsboost.google/public_profiles/733f29a8-c0a8-4b46-9296-21ac09d5b0e0">badges</a>.</p>
+            <p><b>Google Cloud</b>'s course about Google Cloud Platform technologies, Big Data and Machine learning. Link to <a href="https://www.cloudskillsboost.google/public_profiles/733f29a8-c0a8-4b46-9296-21ac09d5b0e0">badges</a>.</p>
+        </div>
+    </div>
+	<!-- Break -->
+    <h2 id="content">Projects</h2>
+    <div class="row">
+        <div class="6u 12u$(small)">
+            <p>Details at <a href="projects.html">projects</a>.</p>
         </div>
     </div>
     <!-- Break -->
@@ -73,16 +81,16 @@ nav-menu: true
     <div class="row">
         <div class="6u 12u$(small)">
             <p>Programming languages: Matlab, Python , C/C++, Vb script, ColdFusion.</p>
-            <p>Python libraries: Numpy, Scipy, Pytorch, Keras, Scikit-Learn, Matplotlib, Pandas.</p>
+            <p>Machine Learning libraries: Numpy, Scipy, Tensorflow, Keras, Scikit-Learn, Matplotlib, Pandas.</p>
             <p>Tools: Git, LaTeX, Microsoft Office, Anaconda, IBM InfoSphere DataStage, IBM InfoSphere Data Replication, Tableau.</p>
             <p>Extras: Experience implementing machine learning methods, knowledge in signal processing, knowledge in datawarehouse and ETL concept, web development, basic skills in image editing.</p>
         </div>
     </div>
     <!-- Break -->
-    <h2 id="content">Awards & Honours</h2>
+    <h2 id="content">Awards &amp; Honours</h2>
     <div class="row">
         <div class="6u 12u$(small)">
-            <li>Graduated cum laude</li>
+            <li>PSRS consortium scholar</li>
             <li>Microsoft Azure Most Potential Project Award (InvestHack 2020 Organized by Bursa Malaysia)</li>
         </div>
     </div>
@@ -92,5 +100,6 @@ nav-menu: true
         <div class="6u 12u$(small)">
             <p>Mandarin (Native) • English (Fluent) • Malay (Fluent) • French (Basic)</p>
         </div>
-    </div>    
+    </div>
+
 </div>
