@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-image: assets/images/pic07.JPG
+image: assets/images/lens08.JPG
 nav-menu: true
 ---
 
