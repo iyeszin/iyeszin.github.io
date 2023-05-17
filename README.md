@@ -1,25 +1,25 @@
-# Forty - Jekyll Theme
+# Iye Szin's Personal Page
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+## Forty - Jekyll Theme
+This is the source code for my personal website hosted on GitHub Pages using a Jekyll theme.
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+## Theme
+The theme used for this website is Forty. It was chosen for its simplicity.
 
-# How to Use
+## Setup
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+To run this website locally, follow these steps:
 
-Simply fork this repository and start editing the `_config.yml` file!
+1. Clone this repository to your local machine
+2. Install Jekyll by following the instructions in the official Jekyll documentation
+3. In your terminal, navigate to the cloned repository and run the command bundle exec jekyll serve
+4. Open your web browser and go to http://localhost:4000
 
-> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
+# To-do list
+- [ ] upload new cv
+- [ ] update resume section according to new cv
+- [ ] update cute 404 images
 
-# Added Features
-
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
 
 # Credits
 
