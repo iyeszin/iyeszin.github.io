@@ -7,11 +7,11 @@ description: Iye Szin's personal website
 url: # the base hostname & protocol for your site
 author:
 street_address: 
-city: Paris
+city: Leoben
 state: 
 zip_code: 
-country: France
-phone: +33 07 45 67 30 86
+country: Austria
+phone: (+43) 678 7822933
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
