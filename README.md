@@ -23,7 +23,7 @@ gem install jekyll
 # To-do list
 - [x] upload latest cv
 - [x] update personal information
-- [ ] update resume section according to new cv
+- [x] update resume section according to new cv
 - [ ] update cute 404 images
 
 
