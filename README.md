@@ -24,7 +24,7 @@ gem install jekyll
 - [x] upload latest cv
 - [x] update personal information
 - [x] update resume section according to new cv
-- [ ] update cute 404 images
+- [x] update cute 404 images
 
 
 # Credits
