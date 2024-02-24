@@ -12,11 +12,17 @@ To run this website locally, follow these steps:
 
 1. Clone this repository to your local machine
 2. Install Jekyll by following the instructions in the official Jekyll documentation
-3. In your terminal, navigate to the cloned repository and run the command bundle exec jekyll serve
-4. Open your web browser and go to http://localhost:4000
+3. At git bash, 
+```
+gem install bundle
+gem install jekyll
+```
+4. In your terminal, navigate to the cloned repository and run the command bundle exec jekyll serve
+5. Open your web browser and go to http://localhost:4000
 
 # To-do list
-- [ ] upload new cv
+- [x] upload latest cv
+- [ ] update personal information
 - [ ] update resume section according to new cv
 - [ ] update cute 404 images
 
