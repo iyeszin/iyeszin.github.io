@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses:  helaili/jekyll-action@v2
+      
+      # Add a step to update RubyGems
+      - name: Update RubyGems
+        run: |
+          gem update --system
+      
+      - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
