@@ -6,7 +6,7 @@ image: assets/images/pic06.JPG
 nav-menu: true
 ---
 
-![test image]({{ site.url | absolute_path}}/assets/images/pic06.jpg)
+![myself]({{ site.url | absolute_path}}/assets/images/pic06.JPG)
 
 Hello! My journey into the tech world began with a deep dive into Biometrics and Intelligent Vision, thanks to the Erasmus Mundus Master degree program I joined in 2021. That summer, I was fortunate to immerse myself in an internship at the Color Imaging Laboratory in Granada, Spain, exploring the frontiers of computer vision.
 
