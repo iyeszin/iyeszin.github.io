@@ -3,7 +3,8 @@ title: Blog
 layout: landing
 description: 'My only goal in life right now is to be genuinely happy'
 image: assets/images/pic07.JPG
-nav-menu: true
+nav-menu: false
+show_tile: false
 ---
 
 <!-- Main -->
@@ -35,7 +36,7 @@ nav-menu: true
 
 
 <!-- Two -->
-<section id="two">
+<!-- <section id="two">
 	<div class="inner">
 		<header class="major">
 			<h2>Projects</h2>
@@ -43,6 +44,19 @@ nav-menu: true
 		<p>Some projects I did during my coursework and free time.</p>
 		<ul class="actions">
 			<li><a href="projects.html" class="button">Learn more</a></li>
+		</ul>
+	</div>
+</section> -->
+
+<!-- Three -->
+<section id="three">
+	<div class="inner">
+		<header class="major">
+			<h2>Embarked to the mysterious land</h2>
+		</header>
+		<p>I felt grateful my luck leads me so far</p>
+		<ul class="actions">
+			<li><a href="posts/test.html" class="button">Read more</a></li>
 		</ul>
 	</div>
 </section>
