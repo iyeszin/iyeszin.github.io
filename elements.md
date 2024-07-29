@@ -125,7 +125,7 @@ nav-menu: true
                 <h2 id="content">Languages</h2>
                 <div class="row">
                     <div class="6u 12u$(small)">
-                        <p>Mandarin (Native) • English (Fluent) • Malay (Fluent) • French (Basic)</p>
+                        <p>Hokkien (Unwritten Language) • Mandarin (Fluent) • English (Fluent) • Malay (Fluent) • German (Basic) • Japanese (Basic) • French (Basic) </p>
                     </div>
                 </div>
             </div>
