@@ -20,8 +20,8 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Source Sans Pro', Georgia, serif),
+		family-fixed:		('Playfair Display', serif),
 		weight:				300,
 		weight-bold:		600,
 		letter-spacing:		0.025em,
@@ -30,18 +30,19 @@
 
 // Palette.
 	$palette: (
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
-		fg:					#ffffff,
-		fg-bold:			#ffffff,
-		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#9bf1ff,
-		accent1:			#6fc3df,
-		accent2:			#8d82c4,
-		accent3:			#ec8d81,
-		accent4:			#e7b788,
-		accent5:			#8ea9e8,
-		accent6:			#87c5a4
+		bg:         #f7f4ef,
+		bg-alt:     #ece6da,
+		fg:         #3e3e3e,
+		fg-bold:    #2b2b2b,
+		fg-light:   rgba(62,62,62,0.2),
+		border:     rgba(100,85,70,0.2), 
+		border-bg:  rgba(100,85,70,0.05),
+		highlight:  #a17445,
+		accent1:    #c2a87d,
+		accent2:    #87a586,
+		accent3:    #b68b6a,
+		accent4:    #d4bfa5,
+		accent5:    #6d8a88,
+		accent6:    #a2a07f
 	);
+  
