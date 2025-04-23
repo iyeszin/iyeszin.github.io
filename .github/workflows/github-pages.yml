@@ -3,14 +3,28 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master  # Ensure this matches your default branch
 
 jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: jeffreytse/jekyll-deploy-action@v0.5.1
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          provider: 'github'     
+          ruby-version: 2.7  # Specify the Ruby version here
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: jeffreytse/jekyll-deploy-action@v0.5.1
+        with:
+          provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }}
