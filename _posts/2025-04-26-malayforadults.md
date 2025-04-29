@@ -14,7 +14,8 @@ There is a certificate for foreigners to test their proficiency level, called Si
 (This A1 level framework is approximately designed by me to help learners, but it is not officially determined by any organization.)
 - <a href="../27/a1-1.html">Basic greetings and introductions</a>
 - <a href="../27/a1-2.html">Numbers and counting</a>
-- Pronouns
+- <a href="../27/a1-3.html">Pronouns</a>
+- Days, months and seasons
 - Essential phrases to introduce yourself
 - Family members and relationships
 - Common objects and surroundings
