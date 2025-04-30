@@ -15,8 +15,8 @@ There is a certificate for foreigners to test their proficiency level, called Si
 - <a href="../27/a1-1.html">Basic greetings and introductions</a>
 - <a href="../27/a1-2.html">Numbers and counting</a>
 - <a href="../27/a1-3.html">Pronouns</a>
-- Days, months and seasons
-- Essential phrases to introduce yourself
+- <a href="../28/a1-4.html">Days, months and seasons</a>
+- <a href="../28/a1-5.html">Essential phrases to introduce yourself</a>
 - Family members and relationships
 - Common objects and surroundings
 - Basic verbs and actions
