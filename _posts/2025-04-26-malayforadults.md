@@ -17,10 +17,10 @@ There is a certificate for foreigners to test their proficiency level, called Si
 - <a href="../27/a1-3.html">Pronouns</a>
 - <a href="../28/a1-4.html">Days, months and seasons</a>
 - <a href="../28/a1-5.html">Essential phrases to introduce yourself</a>
-- Family members and relationships
-- Common objects and surroundings
-- Basic verbs and actions
-- Simple descriptive terms
+- <a href="../28/a1-6.html">Family members and relationships</a>
+- <a href="../28/a1-7.html">Common objects and surroundings</a>
+- <a href="../28/a1-8.html">Basic verbs and actions</a>
+- <a href="../28/a1-9.html">Simple descriptive terms</a>
 - Food and drinks
 - Time expressions
 - Simple sentence construction
