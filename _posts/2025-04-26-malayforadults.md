@@ -21,6 +21,13 @@ There is a certificate for foreigners to test their proficiency level, called Si
 - <a href="../28/a1-7.html">Common objects and surroundings</a>
 - <a href="../28/a1-8.html">Basic verbs and actions</a>
 - <a href="../28/a1-9.html">Simple descriptive terms</a>
-- Food and drinks
-- Time expressions
-- Simple sentence construction
+- <a href="../29/a1-10.html">Food and drinks</a>
+- <a href="../29/a1-11.html">Time expressions</a>
+- <a href="../29/a1-12.html">Simple sentence construction</a>
+
+
+I've been putting a lot of effort into learning German, and I also learn some French and Finnish. The grammar really make me a headache, it is such a PAIN to learn languages with gender, as i grew up learning languages without gender such as malay, mandarin and english(often referred to as a genderless language, it has masculine-feminine gendered distinctions in its lexicon). I always thought Malay was easy. But then I met someone who was struggling to learn Malay, and it made me realize that maybe it's not as simple as I thought, especially for adults who don't have a structured learning framework.
+
+That's when I decided to create this course. Since I've taken A1 classes in German, French, and Finnish, I have a good idea of what should be covered at this level. Plus, having grown up with Malay and being immersed in its literature. 
+
+So, here it is—my attempt to make learning Malay a bit easier for adults. I hope you find it helpful, and I'm always open to feedback to make it better!
