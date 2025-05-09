@@ -20,6 +20,11 @@ While I am currently focused on support roles, I am open to pursuing another PhD
 
 So, here's a brief snapshot of who I am: a passionate individual with a background in technology and research, eager to bring my skills to a supportive role, all while keeping grounded with hobbies that enrich my life beyond work.
 
+Looking to contribute my multilingual & research background to international teams in Austria.
+
+🌿 Currently seeking
+Project coordination or R&D bridging roles in international settings. I'm passionate about making technology understandable and collaboration sustainable across disciplines.
+
 <!-- Hello! My journey into the tech world began with a deep dive into Biometrics and Intelligent Vision, thanks to the Erasmus Mundus Master degree program I joined in 2021. That summer, I was fortunate to immerse myself in an internship at the Color Imaging Laboratory in Granada, Spain, exploring the frontiers of computer vision.
 
 Now, having completed my master's, I've embarked on a PhD in Artificial Intelligence and Robotics at Montanuniversität Leoben in Austria. Here, I'm delving into the complexities of machine learning, facing new challenges head-on and learning every step of the way.
