@@ -4,10 +4,12 @@ title: Resources for Learning Malay
 description: "Curated collection of high-quality textbooks, flashcards, dictionaries, and online resources for adult learners of Malay language."
 image: assets/images/malay.png
 keywords: "Malay learning resources, Malay textbooks, Malay flashcards, Malay dictionaries, Malay for adults"
+level: "A1, A2, B1"
+date: 2025-05-15
 ---
 
 <div class="lesson-navigation">
-  <p><a href="../26/malayforadults.html">← Back to Main: Malay for adults framework</a></p>
+  <p><a href="../malayforadults">← Back to Main: Malay for adults framework</a></p>
 </div>
 
 <div class="introduction">
@@ -126,5 +128,5 @@ keywords: "Malay learning resources, Malay textbooks, Malay flashcards, Malay di
 </style>
 
 <div class="lesson-navigation-bottom">
-  <p><a href="../../04/26/malayforadults.html">← Back to Main: Malay for adults framework</a></p>
+  <p><a href="../malayforadults">← Back to Main: Malay for adults framework</a></p>
 </div>

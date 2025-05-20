@@ -4,6 +4,9 @@ title: Culture - Learn Malay through Song
 description: "Learn Malay Through a Song, Anak Kampung by Jimmy Palikat"
 image: assets/images/malay.png
 keywords: "Malay for adults, Malay sentence structure, basic Malay grammar, song in Malay, adult language learning"
+level: "A1, A2, B1"
+categories: culture
+date: 2025-05-14
 ---
 <style>
     body {

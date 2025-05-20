@@ -1,0 +1,154 @@
+---
+layout: page
+---
+
+<div class="project-container">
+  <div class="project-header">
+    <h1>{{ page.title }}</h1>
+    <div class="project-meta">
+      <span class="tech-badge">{{ page.tech_stack }}</span>
+      <span class="category-badge">{{ page.category }}</span>
+      {% if page.date %}
+      <span class="date-badge">{{ page.date | date: "%Y" }}</span>
+      {% endif %}
+    </div>
+  </div>
+  
+  {% if page.image %}
+  <div class="project-banner">
+    <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+  
+  <div class="project-content">
+    {{ content }}
+  </div>
+  
+  {% if page.github_link or page.demo_link %}
+  <div class="project-links">
+    {% if page.github_link %}
+    <a href="{{ page.github_link }}" class="button" target="_blank">View on GitHub</a>
+    {% endif %}
+    
+    {% if page.demo_link %}
+    <a href="{{ page.demo_link }}" class="button special" target="_blank">View Demo</a>
+    {% endif %}
+  </div>
+  {% endif %}
+  
+  <div class="back-link">
+    <a href="{{ site.baseurl }}/projects/">← Back to all projects</a>
+  </div>
+</div>
+
+<style>
+  .project-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .project-header {
+    margin: 2em 0;
+  }
+  
+  .project-header h1 {
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2em;
+  }
+  
+  .tech-badge, .category-badge, .date-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .tech-badge {
+    background-color: #f5f5f5;
+    color: #555;
+  }
+  
+  .category-badge {
+    background-color: #0085a1;
+    color: white;
+  }
+  
+  .date-badge {
+    background-color: #eee;
+    color: #666;
+  }
+  
+  .project-banner {
+    margin-bottom: 2em;
+  }
+  
+  .project-banner img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .project-content {
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .project-content h2, .project-content h3 {
+    margin-top: 1.5em;
+    color: #333;
+  }
+  
+  .project-content p {
+    margin-bottom: 1em;
+  }
+  
+  .project-links {
+    margin: 2em 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .project-links .button {
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-links .button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .project-links .special {
+    background-color: #0085a1;
+    color: white;
+  }
+  
+  .project-links .special:hover {
+    background-color: #006d83;
+  }
+  
+  .back-link {
+    margin: 3em 0;
+  }
+  
+  .back-link a {
+    color: #0085a1;
+    text-decoration: none;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+</style>

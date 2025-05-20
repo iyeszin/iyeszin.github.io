@@ -42,3 +42,13 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+
+collections:
+  malay_learning:
+    output: true
+    permalink: /malay-learning/:name/
+    sort_by: lesson_number
+  projects:
+    output: true
+    permalink: /projects/:name/
+    sort_by: date
