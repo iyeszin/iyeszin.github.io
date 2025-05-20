@@ -15,14 +15,13 @@ Malaysia is a melting pot of cultures, and this diversity is beautifully reflect
 
 ## Nasi Lemak
 
-[Nasi lemak in different presentation]
-<img src="https://www.pexels.com/photo/nasi-lemak-served-on-banana-leaf-11912788/" alt="Photo by Suhairy  Tri Yadhi from Pexels">
-<img src="https://www.pexels.com/photo/a-display-of-food-items-on-a-shelf-27155601/" alt="Photo by Khanh Nguyen from Pexels">
+<img src="https://images.pexels.com/photos/11912788/pexels-photo-11912788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Photo by Suhairy  Tri Yadhi from Pexels" width="500">
+<img src="https://images.pexels.com/photos/27155601/pexels-photo-27155601/free-photo-of-a-display-of-food-items-on-a-shelf.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Photo by Khanh Nguyen from Pexels" width="350">
 
 If you ever visit Malaysia or Singapore, make sure you try nasi lemak. The term "nasi lemak" is Malay for "fat rice," but it is actually coconut milk-infused rice served with various side dishes. The rice must be cooked carefully with coconut cream (santan) and pandan leaves. It is traditionally served with fried anchovies (ikan bilis), boiled egg, cucumber slices, and sambal (a spicy chili-based paste). Nasi lemak is a staple breakfast dish that embodies the rich flavors and aromas of Malaysian cuisine.
 
 ## Roti Canai
-<img src="https://www.pexels.com/photo/close-up-of-food-10810650/" alt="PPhoto by Saveurs Secretes from Pexels">
+<img src="https://images.pexels.com/photos/10810650/pexels-photo-10810650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="PPhoto by Saveurs Secretes from Pexels" width="350">
 
 <p>
   <a href="https://www.google.com/search?q=roti+canai+mamak&tbm=isch" target="_blank">
@@ -33,8 +32,8 @@ If you ever visit Malaysia or Singapore, make sure you try nasi lemak. The term 
 Made with ghee and flour, the best roti canai is crispy and flaky on the outside and buttery smooth on the inside. The term "roti canai" comes from the Malay word "roti," meaning bread, and the Tamil word "chanai," meaning to stretch or pull. It is usually served with dhal or curry (and sometimes with sugar). Roti canai can be modified in a variety of ways, such as roti telur (with egg), roti bawang (with onions), or roti pisang (with banana). This versatile dish is a popular street food that showcases the influence of Indian cuisine in Malaysia.
 
 ## Laksa
-<img src="https://www.pexels.com/photo/delicious-asian-noodle-bowl-with-fresh-herbs-28907751/" alt="Photo by Su La Pyae from Pexels">
-<img src="https://www.pexels.com/photo/a-delicious-curry-laksa-in-white-bowl-9772442/](https://unsplash.com/photos/a-bowl-of-noodles-with-meat-and-vegetables-xvAaSlU-zpM" alt="Photo by AMANDA LIM from Pexels">
+<img src="https://images.pexels.com/photos/28907751/pexels-photo-28907751/free-photo-of-delicious-asian-noodle-bowl-with-fresh-herbs.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Photo by Su La Pyae from Pexels" width="700">
+<img src="https://images.pexels.com/photos/9772442/pexels-photo-9772442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Photo by AMANDA LIM from Pexels" width="350">
 
 Laksa is a spicy noodle soup that comes in many variations, with the most popular being Asam Laksa and Curry Laksa. The term "laksa" is believed to have originated from the Persian word "laksha," meaning "many." Asam Laksa features a tangy fish-based broth made with tamarind and mackerel, while Curry Laksa has a rich, coconut-based curry soup. Both are served with thick rice noodles and various toppings like shrimp, chicken, tofu, and vegetables. Laksa is a testament to the diverse culinary influences in Malaysia, blending Malay, Chinese, and Indian flavors.
 
@@ -55,7 +54,7 @@ A popular breakfast option, kaya toast is often attributed to the Hainanese cook
 Nasi Goreng Kampung is a traditional Malaysian fried rice dish that combines cooked rice with a variety of ingredients like anchovies, dried shrimp, vegetables, and soy sauce. The term "nasi goreng" is Malay for "fried rice," and "kampung" means "village," indicating its rustic, home-style origins. It is often served with a fried egg, cucumber slices, and sambal belacan (spicy shrimp paste). This dish is a comforting reminder of the simple yet flavorful meals enjoyed in rural villages.
 
 ## Char Kway Teow
-<img src="https://unsplash.com/photos/pasta-dish-on-white-ceramic-plate-UXzx4Q3yeXo" alt="Photo by Krystal Ng on Unsplash">
+<img src="https://images.unsplash.com/photo-1622896048541-736cd565fafd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Krystal Ng on Unsplash" width="350">
 
 While its recipe seems simple, it takes a lot of skill to fry the rice noodles, soy sauce, chili, belacan, prawns, cockles, and bean sprouts in a wok over very high heat. The term "char kway teow" comes from the Hokkien language, meaning "stir-fried rice cake strips." Penang’s street hawkers are famous for this dish; most Malaysians don’t try to recreate its signature charred aroma at home. Char kway teow is a beloved street food that highlights the skill and artistry of Malaysian hawkers.
 
@@ -86,27 +85,27 @@ Yong Tau Foo is a Hakka Chinese dish consisting of tofu stuffed with a mixture o
 Rendang is a rich and tender coconut milk-based meat dish which is slow-cooked with spices like lemongrass, galangal, and turmeric. The term "rendang" is believed to have originated from the Minangkabau people of Indonesia, meaning "soft" or "tender," referring to the tender texture of the meat. It is typically made with beef or chicken and is a popular dish during festive occasions like Hari Raya. Rendang is a celebration of the rich flavors and aromatic spices of Malay cuisine.
 
 ## Satay
-<img src="https://www.pexels.com/photo/preparing-food-on-barbecue-27099588/" alt="Photo by Zamir Zainon from Pexels">
+<img src="https://images.pexels.com/photos/27099588/pexels-photo-27099588/free-photo-of-preparing-food-on-barbecue.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Photo by Zamir Zainon from Pexels" width="350">
 
 Satay is a popular street food consisting of marinated meat skewers grilled over an open flame. The term "satay" is believed to have originated from the Indonesian word "sate," meaning "skewered meat." The meat is usually chicken, beef, or mutton, and it is served with a peanut sauce dip, accompanied by compressed rice (ketupat), cucumber slices, and onions. Satay is a quintessential Malaysian street food that is enjoyed by locals and tourists alike.
 
 ## Otak-Otak
-<img src="https://unsplash.com/photos/person-holding-green-and-white-plastic-pack-D3R3cd1bH3o" alt="Photo by Esperanza Doronila from Unsplash">
+<img src="https://images.unsplash.com/photo-1617694455296-153ddbd66f0d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Esperanza Doronila from Unsplash" width="350">
 
 Otak-otak is a grilled fish cake made from a mixture of fish paste, chili, turmeric, and lemongrass. The term "otak-otak" is Malay for "brains," referring to the soft, brain-like texture of the fish cake. The mixture is wrapped in a coconut leaf or banana leaf and then grilled, giving it a characteristic reddish-orange tinge and a fragrant, smoky flavor. Otak-otak is a popular snack that highlights the use of fresh ingredients and traditional cooking methods.
 
 ## Keropok Lekor
-<img src="https://unsplash.com/photos/brown-food-on-stainless-steel-bowl-Jh9PFpC-bLc" alt="Photo by Esperanza Doronila from Unsplash">
+<img src="https://images.unsplash.com/photo-1617692855396-b93eba47151e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo by Esperanza Doronila from Unsplash" width="350">
 
 Keropok Lekor is a traditional Malay fish cracker made from a mixture of fish paste and sago flour. The term "keropok" is Malay for "cracker," and "lekor" refers to the chewy texture of the cracker. The dough is shaped into small, thin circles and then deep-fried until crispy. It is often served as a snack or side dish, sometimes accompanied by a chili sauce dip. Keropok Lekor is a popular snack that is enjoyed for its crispy texture and savory flavor.
 
 ## Ais Batu Campur (ABC) & Cendol
 
-<img src="https://www.pexels.com/photo/dessert-with-sliced-fruits-on-white-ceramic-bowl-5870643/" alt="Photo by Ernie Santiago from Pexels">
+<img src="https://images.pexels.com/photos/5870643/pexels-photo-5870643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Photo by Ernie Santiago from Pexels" width="350">
 
 Ais Batu Campur, also known as ABC, is a popular Malaysian shaved ice dessert. The term "ais batu campur" is Malay for "mixed ice," referring to the variety of toppings mixed with shaved ice. It features shaved ice topped with various ingredients like red beans, sweet corn, grass jelly, and palm seeds, all drizzled with evaporated milk, condensed milk, and rose syrup. ABC is a refreshing dessert that is perfect for hot days, offering a delightful mix of textures and flavors.
 
-<img src="https://www.pexels.com/photo/stainless-bowls-with-food-on-red-surface-8306187/" alt="Photo by Aiman Baser from Pexels">
+<img src="https://images.pexels.com/photos/8306187/pexels-photo-8306187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Photo by Aiman Baser from Pexels" width="350">
 
 Cendol is another beloved Malaysian dessert, especially enjoyed as a cooling treat in hot weather. It consists of green rice flour jelly noodles served in a bowl of shaved ice, sweetened coconut milk, and rich palm sugar syrup (gula Melaka). Often accompanied by red beans or sweet corn, cendol offers a creamy, sweet, and slightly smoky flavor profile with its unique combination of chewy, icy, and velvety textures.
 
