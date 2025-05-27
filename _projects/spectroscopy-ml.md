@@ -6,7 +6,7 @@ image:
 tech_stack: "Python, TensorFlow, Spectral Libraries (RRUFF)"
 category: "Interdisciplinary Research"
 status: "In Progress"
-project_type: "Applied Research"
+project_type: "Professional Project"
 date: 2025-03-31
 github_link: "https://github.com/iyeszin/rocks_evaluation"
 ---

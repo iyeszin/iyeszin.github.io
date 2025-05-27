@@ -64,6 +64,42 @@
       color: #666;
     }
 
+    /* Mobile-first responsive design */
+    @media (max-width: 768px) {
+      .posts-container {
+        margin: 0; /* Remove negative margins */
+        flex-direction: column; /* Stack vertically on mobile */
+      }
+      
+      .post-link {
+        flex: 1 1 100%; /* Full width on mobile */
+        margin: 10px 0; /* Vertical spacing only */
+        max-width: 100%;
+      }
+      
+      .inner {
+        padding: 15px; /* Reduce padding on mobile */
+      }
+      
+      .post-title {
+        font-size: 20px; /* Slightly smaller on mobile */
+      }
+    }
+
+    /* Tablet breakpoint */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .post-link {
+        flex: 1 1 calc(50% - 30px); /* 2 columns on tablet */
+      }
+    }
+
+    /* Desktop - keep existing 3-column layout */
+    @media (min-width: 1025px) {
+      .post-link {
+        flex: 1 1 calc(33.333% - 30px); /* 3 columns on desktop */
+      }
+    }
+
   </style>
 </head>
 <body>

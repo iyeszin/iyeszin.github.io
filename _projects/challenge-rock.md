@@ -6,7 +6,7 @@ image:
 tech_stack: "Knowledge Representation, Computational Ontologies, Scientific Computing"
 category: "Interdisciplinary Research"
 status: "In Progress"
-project_type: "Academic Research"
+project_type: "Professional Project"
 date: 2025-05-15
 github_link: "https://github.com/iyeszin/rocks_evaluation"
 ---
