@@ -208,21 +208,17 @@ date: 2025-05-14
 
 <h2>Why Learn Malay Through Songs?</h2>
 <p>Songs are an excellent way to learn a language because they are memorable, engaging, and often repetitive. By following along with the lyrics of "Anak Kampung," you can:</p>
-    <ul>
-        <li>Improve your pronunciation by mimicking the singer's intonation and rhythm.</li>
-        <li>Expand your vocabulary with everyday words and phrases.</li>
-        <li>Enhance your listening skills by focusing on the lyrics.</li>
-        <li>Better understand Malay culture through the storytelling in the song.</li>
-    </ul>
+    - Improve your pronunciation by mimicking the singer's intonation and rhythm.
+    - Expand your vocabulary with everyday words and phrases.
+    - Enhance your listening skills by focusing on the lyrics.
+    - Better understand Malay culture through the storytelling in the song.
 
 <h2>Tips for Learning with Songs</h2>
-    <ul>
-        <li>Listen to the song multiple times to get familiar with the lyrics and melody.</li>
-        <li>Read the lyrics while listening to improve your comprehension.</li>
-        <li>Sing along to practice your pronunciation and intonation.</li>
-        <li>Look up any unfamiliar words to expand your vocabulary.</li>
-        <li>Try writing down the lyrics to reinforce your memory.</li>
-    </ul>
+    - Listen to the song multiple times to get familiar with the lyrics and melody.
+    - Read the lyrics while listening to improve your comprehension.
+    - Sing along to practice your pronunciation and intonation.
+    - Look up any unfamiliar words to expand your vocabulary.
+    - Try writing down the lyrics to reinforce your memory.
 
 <p>Selamat belajar! (Happy learning!)</p>
 
