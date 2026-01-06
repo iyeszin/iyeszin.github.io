@@ -4,7 +4,8 @@ subtitle: crossing codes
 email: iyeszin@gmail.com
 description: Iye Szin's personal website
 # baseurl: # "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: ""
+url: "https://iyeszin.github.io"
 author:
 street_address: 
 city: Leoben
