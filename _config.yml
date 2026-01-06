@@ -42,7 +42,8 @@ exclude:
 - "*.gemspec"
 - LICENSE.md
 - CONTRIBUTING.md
-- README.md 
+- README.md
+- vendor
 
 collections:
   malay_learning:
