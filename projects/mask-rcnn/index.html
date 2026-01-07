@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Pokémon Object Detection with Mask R-CNN | Iye Szin</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+</head>
+
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    <!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="https://iyeszin.github.io//" class="logo"><strong>Iye Szin</strong> <span>crossing codes</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io//">Home</a></li>
+	    	
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/bridging_gap.html">Bridging the knowledge gap</a></li>
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/elements.html">CV & Skills</a></li>
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/generic.html">About</a></li>
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/projects.html">Projects</a></li>
+		    
+		
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+	</ul>
+</nav>
+ <div class="project-container">
+  <div class="project-header">
+    <h1>Pokémon Object Detection with Mask R-CNN</h1>
+    <div class="project-meta">
+      <span class="tech-badge">Python, TensorFlow, Mask R-CNN, OpenCV</span>
+      <span class="category-badge">Computer Vision</span>
+      
+      <span class="date-badge">2023</span>
+      
+    </div>
+  </div>
+  
+  
+  <div class="project-banner">
+    <img src="/assets/images/mask-01.png" alt="Pokémon Object Detection with Mask R-CNN">
+  </div>
+  
+  
+  <div class="project-content">
+    <h2 id="project-overview">Project Overview</h2>
+
+<p>This personal project, developed during my time at the Université Paris-Est Créteil, explores the application of Mask R-CNN for custom object detection. I implemented transfer learning techniques with a pre-trained Mask R-CNN model (originally trained on the COCO dataset) to detect and segment custom objects - specifically Pikachu from Pokémon - in images. This work demonstrates how deep learning can be adapted to specialized detection tasks without requiring extensive training data.</p>
+
+<h2 id="implementation-details">Implementation Details</h2>
+
+<p>I utilized a pre-trained Mask R-CNN architecture as the foundation and fine-tuned it to recognize Pikachu from various angles and contexts. The project involved:</p>
+
+<ul>
+  <li>Adapting the Mask R-CNN architecture originally pre-trained on COCO dataset</li>
+  <li>Creating a custom dataset with labeled Pikachu images</li>
+  <li>Implementing transfer learning to recognize this character not present in the original dataset</li>
+  <li>Optimizing detection parameters for higher accuracy</li>
+</ul>
+
+<p>[<em>Mask R-CNN detection result showing bounding boxes and segmentation</em>]
+<img src="/assets/images/mask-01.png" alt="Mask R-CNN Detection Bounding boxes" />
+<img src="/assets/images/mask-02.png" alt="Mask R-CNN Detection Segmentation" /></p>
+
+<h2 id="parameter-optimization">Parameter Optimization</h2>
+
+<p>A significant part of this project involved experimenting with various parameters to improve detection performance:</p>
+
+<h3 id="1-iou-thresholds-for-region-proposal-network-rpn">1. IoU Thresholds for Region Proposal Network (RPN)</h3>
+<ul>
+  <li>Adjusted upper threshold (positive samples) and lower threshold (negative samples)</li>
+  <li>Found optimal performance with lower bound at 0.3 and upper bound at 0.7</li>
+  <li>Values between thresholds were ignored during training to improve robustness</li>
+</ul>
+
+<h3 id="2-roi-box-head-architecture">2. ROI Box Head Architecture</h3>
+<ul>
+  <li>Experimented with varying numbers of convolution filters (optimal: 4 filters)</li>
+  <li>Tested different configurations of fully connected layers (settled on 2 FC layers)</li>
+  <li>Balanced complexity against potential overfitting</li>
+</ul>
+
+<h3 id="3-non-maximum-suppression-nms-optimization">3. Non-Maximum Suppression (NMS) Optimization</h3>
+<ul>
+  <li>Fine-tuned pre-NMS and post-NMS proposal numbers</li>
+  <li>Default values: 4000 pre-NMS proposals, 1000 post-NMS proposals during training</li>
+  <li>NMS suppresses overlapping bounding boxes to retain only the highest confidence detections</li>
+</ul>
+
+<h2 id="technical-challenges">Technical Challenges</h2>
+
+<p>The project presented several interesting challenges:</p>
+
+<ul>
+  <li><strong>Annotation Efficiency</strong>: Creating efficient workflows for annotating custom objects</li>
+  <li><strong>Transfer Learning Optimization</strong>: Finding the right balance between frozen and trainable layers</li>
+  <li><strong>Hyperparameter Tuning</strong>: Systematic experimentation with detection parameters</li>
+  <li><strong>Small Dataset Handling</strong>: Implementing data augmentation to maximize learning from limited examples</li>
+</ul>
+
+<h2 id="results-and-insights">Results and Insights</h2>
+
+<p>The fine-tuned model successfully detected Pikachu in various contexts with high precision. Key findings include:</p>
+
+<ul>
+  <li>Transfer learning significantly reduced the amount of training data needed</li>
+  <li>Parameter tuning had substantial impact on detection quality</li>
+  <li>NMS threshold values greatly influenced the final detection results</li>
+  <li>The model generalized well to different poses and backgrounds of the character</li>
+</ul>
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+<ul>
+  <li><strong>Python</strong> for implementation</li>
+  <li><strong>TensorFlow</strong> and <strong>Keras</strong> for deep learning framework</li>
+  <li><strong>Mask R-CNN</strong> architecture for instance segmentation</li>
+  <li><strong>OpenCV</strong> for image processing and visualization</li>
+  <li><strong>Data augmentation</strong> techniques for training set expansion</li>
+</ul>
+
+<h2 id="future-directions">Future Directions</h2>
+
+<ul>
+  <li>Expand detection to multiple Pokémon characters</li>
+  <li>Implement real-time detection capabilities</li>
+  <li>Explore instance segmentation for more detailed character analysis</li>
+  <li>Compare performance against newer architectures like YOLO and EfficientDet</li>
+</ul>
+
+  </div>
+  
+  
+  
+  <div class="back-link">
+    <a href="/projects/">← Back to all projects</a>
+  </div>
+</div>
+
+<style>
+  .project-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .project-header {
+    margin: 2em 0;
+  }
+  
+  .project-header h1 {
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2em;
+  }
+  
+  .tech-badge, .category-badge, .date-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .tech-badge {
+    background-color: #f5f5f5;
+    color: #555;
+  }
+  
+  .category-badge {
+    background-color: #0085a1;
+    color: white;
+  }
+  
+  .date-badge {
+    background-color: #eee;
+    color: #666;
+  }
+  
+  .project-banner {
+    margin-bottom: 2em;
+  }
+  
+  .project-banner img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .project-content {
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .project-content h2, .project-content h3 {
+    margin-top: 1.5em;
+    color: #333;
+  }
+  
+  .project-content p {
+    margin-bottom: 1em;
+  }
+  
+  .project-links {
+    margin: 2em 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .project-links .button {
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-links .button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .project-links .special {
+    background-color: #0085a1;
+    color: white;
+  }
+  
+  .project-links .special:hover {
+    background-color: #006d83;
+  }
+  
+  .back-link {
+    margin: 3em 0;
+  }
+  
+  .back-link a {
+    color: #0085a1;
+    text-decoration: none;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+</style> <!-- Contact -->
+<style>
+	@media (max-width: 768px) {
+	#contact .inner {
+		padding: 20px 15px;
+	}
+
+	#contact .split {
+		flex-direction: column;
+	}
+
+	#contact .split section {
+		margin-bottom: 20px;
+	}
+
+	.contact-method {
+		text-align: center;
+	}
+	}
+</style>
+<section id="contact">
+	<div class="inner">
+		<section>
+			<iframe data-tally-src="https://tally.so/embed/w7eEYP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="228" frameborder="0" marginheight="0" marginwidth="0" title="Contact form
+			"></iframe>
+			<script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" !=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+			<!-- <form action="mailto:iyeszin@gmail.com" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form> -->
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="mailto:iyeszin@gmail.com">iyeszin@gmail.com</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<a href="tel:"></a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					
+					
+					    Leoben,
+					
+					
+					
+					
+					    Austria
+					
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+					
+						<li>
+							<a href="https://github.com/iyeszin" class="icon alt fa-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+								<span class="label">GitHub</span>
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a href="https://www.linkedin.com/iyeszin" class="icon alt fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+								<span class="label">LinkedIn</span>
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Iye Szin crossing codes</li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="https://iyeszin.github.io/assets/js/jquery.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/jquery.scrolly.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/jquery.scrollex.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/skel.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="https://iyeszin.github.io/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="https://iyeszin.github.io/assets/js/main.js"></script>
+
+
+</body>
+
+</html>

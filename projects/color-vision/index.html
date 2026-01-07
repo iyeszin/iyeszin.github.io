@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Color Vision Deficiency Assistant | Iye Szin</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+</head>
+
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    <!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="https://iyeszin.github.io//" class="logo"><strong>Iye Szin</strong> <span>crossing codes</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io//">Home</a></li>
+	    	
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/bridging_gap.html">Bridging the knowledge gap</a></li>
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/elements.html">CV & Skills</a></li>
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/generic.html">About</a></li>
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/projects.html">Projects</a></li>
+		    
+		
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+	</ul>
+</nav>
+ <div class="project-container">
+  <div class="project-header">
+    <h1>Color Vision Deficiency Assistant</h1>
+    <div class="project-meta">
+      <span class="tech-badge">React Native, Python Flask, OpenCV</span>
+      <span class="category-badge">Assistive Technology</span>
+      
+      <span class="date-badge">2023</span>
+      
+    </div>
+  </div>
+  
+  
+  <div class="project-banner">
+    <img src="/assets/images/cv-ui01.png" alt="Color Vision Deficiency Assistant">
+  </div>
+  
+  
+  <div class="project-content">
+    <h2 id="project-overview">Project Overview</h2>
+
+<p>This assistive technology project, developed during my internship at the University of Granada, addresses the challenges faced by people with Congenital Color Vision Deficiency (CVD). Affecting approximately 8% of Caucasian males and 0.5% of females, color blindness limits color discrimination abilities in various contexts.</p>
+
+<p>The application serves dual purposes: helping color blind individuals perceive colors more accurately through customized image recoloration, and allowing people with normal vision to experience what color blindness is like through simulation.</p>
+
+<h2 id="technical-implementation">Technical Implementation</h2>
+
+<h3 id="system-architecture">System Architecture</h3>
+
+<p>The application uses a client-server architecture:</p>
+<ul>
+  <li><strong>Frontend</strong>: React Native with Expo framework for cross-platform compatibility</li>
+  <li><strong>Backend</strong>: Python Flask server handling complex image processing algorithms</li>
+  <li><strong>Image Processing Pipeline</strong>: OpenCV-based transformation between RGB and LMS color spaces</li>
+</ul>
+
+<!-- IMAGE: Architecture diagram showing the flow from user input to processed image output -->
+<p>[Architecture diagram showing the flow from user input to processed image output]
+<img src="/assets/images/color-vision-flow.png" alt="architecture" /></p>
+
+<h3 id="key-features">Key Features</h3>
+
+<ol>
+  <li><strong>Personalized CVD Calibration</strong>: Interactive color grouping experiment to determine the type and severity of color vision deficiency</li>
+  <li><strong>Image Recoloration</strong>: Advanced algorithms to transform images for better perception by CVD individuals</li>
+  <li><strong>Simulation Mode</strong>: Allows non-CVD users to experience how images appear to people with different types of color blindness</li>
+  <li><strong>Camera Integration</strong>: Ability to process both existing and newly captured images</li>
+</ol>
+
+<h2 id="color-science-application">Color Science Application</h2>
+
+<p>The project implements sophisticated color science principles:</p>
+
+<ul>
+  <li><strong>Color Space Transformation</strong>: Converting between RGB and LMS (Long, Medium, Short wavelength cone response) color spaces</li>
+  <li><strong>Kotera Simulation</strong>: Implementation of the Kotera algorithm for recoloring images to enhance perception for CVD individuals</li>
+  <li><strong>Calibration Testing</strong>: Utilizing Digital NCS (Natural Color System) samples for precise CVD type determination</li>
+</ul>
+
+<h2 id="results-and-outcomes">Results and Outcomes</h2>
+<p>[Image: User interface of app designed by Iye Szin]
+<img src="/assets/images/cv-ui01.png" alt="User Interface of App 1" />
+<img src="/assets/images/cv-ui02.png" alt="User Interface of App2" /></p>
+
+<p>The application successfully recolors images to enhance color differentiation for users with various types of color blindness. Testing with sample images demonstrated significant improvement in distinguishing previously confusing colors:</p>
+
+<p>[Image: Grid of test results showing original and recolored images]
+<img src="/assets/images/color-vision.png" alt="Test results" /></p>
+
+<h2 id="technical-challenges">Technical Challenges</h2>
+
+<p>Several technical challenges were addressed during development:</p>
+
+<ol>
+  <li><strong>Cross-platform Color Management</strong>: Implementing consistent color representation across different mobile devices</li>
+  <li><strong>Algorithm Translation</strong>: Converting complex MATLAB color transformation algorithms to Python</li>
+  <li><strong>Real-time Processing</strong>: Optimizing image processing for acceptable performance on mobile devices</li>
+  <li><strong>Personalization</strong>: Creating adaptive systems that respond to individual variations in color perception</li>
+</ol>
+
+<h2 id="future-development">Future Development</h2>
+
+<p>While the core functionality was successfully implemented, several enhancements remain for future development:</p>
+
+<ol>
+  <li><strong>Device Screen Calibration</strong>: Enhanced color calibration for more accurate representation</li>
+  <li><strong>Expanded Testing Framework</strong>: Additional color perception experiments for more precise CVD classification</li>
+  <li><strong>Real-time Video Processing</strong>: Extending image recoloration to live video streams</li>
+  <li><strong>Accessibility Improvements</strong>: Further UI refinements for users with additional visual needs</li>
+</ol>
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+<ul>
+  <li><strong>Frontend</strong>: React Native, Expo</li>
+  <li><strong>Backend</strong>: Python, Flask</li>
+  <li><strong>Image Processing</strong>: OpenCV, NumPy</li>
+  <li><strong>Color Science</strong>: LMS color space transformation, Kotera algorithm</li>
+  <li><strong>Development Environment</strong>: Visual Studio Code, Android Studio Emulator</li>
+</ul>
+
+  </div>
+  
+  
+  
+  <div class="back-link">
+    <a href="/projects/">← Back to all projects</a>
+  </div>
+</div>
+
+<style>
+  .project-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .project-header {
+    margin: 2em 0;
+  }
+  
+  .project-header h1 {
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2em;
+  }
+  
+  .tech-badge, .category-badge, .date-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .tech-badge {
+    background-color: #f5f5f5;
+    color: #555;
+  }
+  
+  .category-badge {
+    background-color: #0085a1;
+    color: white;
+  }
+  
+  .date-badge {
+    background-color: #eee;
+    color: #666;
+  }
+  
+  .project-banner {
+    margin-bottom: 2em;
+  }
+  
+  .project-banner img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .project-content {
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .project-content h2, .project-content h3 {
+    margin-top: 1.5em;
+    color: #333;
+  }
+  
+  .project-content p {
+    margin-bottom: 1em;
+  }
+  
+  .project-links {
+    margin: 2em 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .project-links .button {
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-links .button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .project-links .special {
+    background-color: #0085a1;
+    color: white;
+  }
+  
+  .project-links .special:hover {
+    background-color: #006d83;
+  }
+  
+  .back-link {
+    margin: 3em 0;
+  }
+  
+  .back-link a {
+    color: #0085a1;
+    text-decoration: none;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+</style> <!-- Contact -->
+<style>
+	@media (max-width: 768px) {
+	#contact .inner {
+		padding: 20px 15px;
+	}
+
+	#contact .split {
+		flex-direction: column;
+	}
+
+	#contact .split section {
+		margin-bottom: 20px;
+	}
+
+	.contact-method {
+		text-align: center;
+	}
+	}
+</style>
+<section id="contact">
+	<div class="inner">
+		<section>
+			<iframe data-tally-src="https://tally.so/embed/w7eEYP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="228" frameborder="0" marginheight="0" marginwidth="0" title="Contact form
+			"></iframe>
+			<script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" !=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+			<!-- <form action="mailto:iyeszin@gmail.com" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form> -->
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="mailto:iyeszin@gmail.com">iyeszin@gmail.com</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<a href="tel:"></a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					
+					
+					    Leoben,
+					
+					
+					
+					
+					    Austria
+					
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+					
+						<li>
+							<a href="https://github.com/iyeszin" class="icon alt fa-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+								<span class="label">GitHub</span>
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a href="https://www.linkedin.com/iyeszin" class="icon alt fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+								<span class="label">LinkedIn</span>
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Iye Szin crossing codes</li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="https://iyeszin.github.io/assets/js/jquery.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/jquery.scrolly.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/jquery.scrollex.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/skel.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="https://iyeszin.github.io/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="https://iyeszin.github.io/assets/js/main.js"></script>
+
+
+</body>
+
+</html>

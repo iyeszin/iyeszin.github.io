@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Sign Language Robot: ROS2-based Human-Robot Interaction Framework | Iye Szin</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+</head>
+
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    <!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="https://iyeszin.github.io//" class="logo"><strong>Iye Szin</strong> <span>crossing codes</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io//">Home</a></li>
+	    	
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/bridging_gap.html">Bridging the knowledge gap</a></li>
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/elements.html">CV & Skills</a></li>
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/generic.html">About</a></li>
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="https://iyeszin.github.io/projects.html">Projects</a></li>
+		    
+		
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+	</ul>
+</nav>
+ <div class="project-container">
+  <div class="project-header">
+    <h1>Sign Language Robot: ROS2-based Human-Robot Interaction Framework</h1>
+    <div class="project-meta">
+      <span class="tech-badge">Python, ROS2, TensorFlow, Computer Vision, MediaPipe, Robotics</span>
+      <span class="category-badge">Assistive Technology</span>
+      
+      <span class="date-badge">2023</span>
+      
+    </div>
+  </div>
+  
+  
+  <div class="project-banner">
+    <img src="/assets/images/sl-model.png" alt="Sign Language Robot: ROS2-based Human-Robot Interaction Framework">
+  </div>
+  
+  
+  <div class="project-content">
+    <h2 id="project-overview">Project Overview</h2>
+
+<p>This project addresses the critical need for innovative accessibility solutions for the deaf and hard of hearing community. Working at the University of Granada, I developed a comprehensive ROS2-based framework enabling human-robot interaction through sign language, creating a bidirectional communication system that can both recognize human signs and produce sign language gestures with a robotic hand.</p>
+
+<p>The system aims to answer a fundamental research question: How can the integration of sign language into human-robot interaction enhance accessibility and inclusivity for individuals who are deaf or hard of hearing?</p>
+
+<p><img src="/assets/images/sl-system.png" alt="Training and inference phase" /></p>
+
+<h2 id="technical-implementation">Technical Implementation</h2>
+
+<h3 id="system-architecture">System Architecture</h3>
+
+<p>The framework consists of three primary components working in seamless integration:</p>
+
+<ol>
+  <li><strong>Sign Language Recognition</strong>: Computer vision system using deep learning to detect and classify hand gestures</li>
+  <li><strong>ROS2 Communication Framework</strong>: Message-passing architecture connecting all system components</li>
+  <li><strong>Robotic Hand Control</strong>: Precise motor control to form accurate sign language gestures</li>
+</ol>
+
+<p>The complete ROS2 architecture includes:</p>
+<ul>
+  <li>Camera node for gesture capture</li>
+  <li>Inference node for sign recognition</li>
+  <li>Chat agent for processing recognized signs</li>
+  <li>Position controller for robotic hand articulation</li>
+  <li>Service interfaces for system integration</li>
+</ul>
+
+<p><img src="/assets/images/sl-ros.png" alt="ROS2 Architecture Diagram" />
+<em>ROS2 architecture showing communication flow between system components</em></p>
+
+<h3 id="sign-recognition">Sign Recognition</h3>
+
+<p>I implemented two approaches to sign language recognition:</p>
+
+<ol>
+  <li><strong>Static Sign Recognition</strong>: CNN-based model trained on the Sign Language MNIST dataset achieving 100% top-1 accuracy on test data
+    <ul>
+      <li>Preprocessing pipeline for image normalization</li>
+      <li>Custom model architecture with convolutional layers, batch normalization, and dropout</li>
+      <li>Full confusion matrix validation</li>
+    </ul>
+  </li>
+  <li><strong>Dynamic Sign Recognition</strong>: Advanced system using 543 body landmarks (face, hands, pose) to recognize word-level signs
+    <ul>
+      <li>Transformer and GRU architectures for temporal sequence modeling</li>
+      <li>Landmark reduction and frame interpolation for efficient processing</li>
+      <li>Achieved 76.98% accuracy on the public dataset leaderboard</li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="/assets/images/sl-setup.gif" alt="Sign Recognition Results" /></p>
+
+<h3 id="robotic-hand-control">Robotic Hand Control</h3>
+
+<p>I developed a complete control system for the robotic hand:</p>
+
+<ul>
+  <li>Created a user-friendly GUI for trajectory control and testing</li>
+  <li>Implemented precise motor control for 8 actuators managing 19 degrees of freedom</li>
+  <li>Designed a trajectory database mapping recognized signs to motor positions</li>
+  <li>Achieved system latency of only ±0.003 seconds</li>
+</ul>
+
+<h2 id="challenges-and-limitations">Challenges and Limitations</h2>
+
+<p>While the recognition models achieved high accuracy in controlled testing environments, the real-world implementation on the robotic system revealed several important challenges:</p>
+
+<ol>
+  <li><strong>Hardware Constraints</strong>: The physical limitations of the robotic hand significantly impacted sign reproduction:
+    <ul>
+      <li>Ring and little fingers shared the same control mechanism, limiting independent movement</li>
+      <li>Inability to cross fingers for certain signs</li>
+      <li>Limited finger span compared to human hands</li>
+      <li>Constraints in achieving precise thumb positions required for some signs</li>
+    </ul>
+  </li>
+  <li><strong>Recognition-to-Execution Gap</strong>: The high accuracy of the recognition algorithms in testing environments did not directly translate to successful execution in the full robotic system due to:
+    <ul>
+      <li>Environmental variations (lighting, background, etc.)</li>
+      <li>Differences between training data and real-world inputs</li>
+      <li>Real-time processing requirements</li>
+    </ul>
+  </li>
+  <li><strong>ROS2 Integration Challenges</strong>:
+    <ul>
+      <li>ROS2 incompatibility with Gazebo simulation limited testing options</li>
+      <li>Only the left robotic hand was fully supported in the ROS2 implementation</li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="/assets/images/sl-limitation.png" alt="Unsuccessful Trajectories" />
+<em>Examples of signs that proved challenging for the robotic hand due to physical limitations</em></p>
+
+<p>These challenges provided valuable insights into the gap between algorithmic performance and practical robotics implementation - an important learning outcome of the project.</p>
+
+<h2 id="impact-and-applications">Impact and Applications</h2>
+
+<p>Despite the implementation challenges, this project demonstrated:</p>
+<ul>
+  <li>The viability of computer vision approaches for sign language recognition</li>
+  <li>The potential for ROS2-based frameworks in assistive technology</li>
+  <li>Clear identification of hardware requirements for effective sign language robots</li>
+</ul>
+
+<p>The research highlighted both the promise and current limitations of robotic sign language interpretation, providing a foundation for future improvements in the field.</p>
+
+<h2 id="future-directions">Future Directions</h2>
+
+<p>Based on the challenges encountered, future development should focus on:</p>
+<ul>
+  <li>Improved robotic hand designs with greater dexterity and independent finger control</li>
+  <li>Bridging the gap between algorithmic and real-world performance through domain adaptation</li>
+  <li>Enhancing the system with facial expression capabilities for complete grammatical context</li>
+  <li>Development of hardware specifically designed for sign language reproduction</li>
+</ul>
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+<ul>
+  <li><strong>Computer Vision</strong>: MediaPipe, OpenCV</li>
+  <li><strong>Machine Learning</strong>: TensorFlow, CNN, Transformer, GRU</li>
+  <li><strong>Robotics</strong>: ROS2, Motor Control</li>
+  <li><strong>Development</strong>: Python, C++</li>
+</ul>
+
+<h2 id="key-learnings">Key Learnings</h2>
+
+<p>This project provided valuable insights into:</p>
+<ul>
+  <li>The complexities of translating computer vision models to practical robotic applications</li>
+  <li>Hardware design requirements for effective sign language reproduction</li>
+  <li>The importance of considering physical constraints when designing assistive technology</li>
+  <li>Effective implementation of ROS2 for complex human-robot interaction systems</li>
+</ul>
+
+  </div>
+  
+  
+  
+  <div class="back-link">
+    <a href="/projects/">← Back to all projects</a>
+  </div>
+</div>
+
+<style>
+  .project-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .project-header {
+    margin: 2em 0;
+  }
+  
+  .project-header h1 {
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2em;
+  }
+  
+  .tech-badge, .category-badge, .date-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .tech-badge {
+    background-color: #f5f5f5;
+    color: #555;
+  }
+  
+  .category-badge {
+    background-color: #0085a1;
+    color: white;
+  }
+  
+  .date-badge {
+    background-color: #eee;
+    color: #666;
+  }
+  
+  .project-banner {
+    margin-bottom: 2em;
+  }
+  
+  .project-banner img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .project-content {
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .project-content h2, .project-content h3 {
+    margin-top: 1.5em;
+    color: #333;
+  }
+  
+  .project-content p {
+    margin-bottom: 1em;
+  }
+  
+  .project-links {
+    margin: 2em 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .project-links .button {
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-links .button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .project-links .special {
+    background-color: #0085a1;
+    color: white;
+  }
+  
+  .project-links .special:hover {
+    background-color: #006d83;
+  }
+  
+  .back-link {
+    margin: 3em 0;
+  }
+  
+  .back-link a {
+    color: #0085a1;
+    text-decoration: none;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+</style> <!-- Contact -->
+<style>
+	@media (max-width: 768px) {
+	#contact .inner {
+		padding: 20px 15px;
+	}
+
+	#contact .split {
+		flex-direction: column;
+	}
+
+	#contact .split section {
+		margin-bottom: 20px;
+	}
+
+	.contact-method {
+		text-align: center;
+	}
+	}
+</style>
+<section id="contact">
+	<div class="inner">
+		<section>
+			<iframe data-tally-src="https://tally.so/embed/w7eEYP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="228" frameborder="0" marginheight="0" marginwidth="0" title="Contact form
+			"></iframe>
+			<script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" !=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+			<!-- <form action="mailto:iyeszin@gmail.com" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form> -->
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="mailto:iyeszin@gmail.com">iyeszin@gmail.com</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<a href="tel:"></a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					
+					
+					    Leoben,
+					
+					
+					
+					
+					    Austria
+					
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+					
+						<li>
+							<a href="https://github.com/iyeszin" class="icon alt fa-github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+								<span class="label">GitHub</span>
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a href="https://www.linkedin.com/iyeszin" class="icon alt fa-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+								<span class="label">LinkedIn</span>
+							</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Iye Szin crossing codes</li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="https://iyeszin.github.io/assets/js/jquery.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/jquery.scrolly.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/jquery.scrollex.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/skel.min.js"></script>
+	<script src="https://iyeszin.github.io/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="https://iyeszin.github.io/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="https://iyeszin.github.io/assets/js/main.js"></script>
+
+
+</body>
+
+</html>
