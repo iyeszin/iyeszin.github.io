@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Malay learning for adults
-description: A structured approach to learning Malay for adult learners
+title: "Malay for Adults: A Structured Learning Guide"
+description: "A comprehensive guide for adults learning the Malay language. Structured lessons, vocabulary, and grammar for professional and daily use."
+permalink: /malay-for-adults/
 ---
 
 <div class="container">
